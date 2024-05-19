@@ -1,6 +1,6 @@
 $('.start').click(function(){
     $('.stage1').fadeOut();
-    fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake_modal.png','Cùng tớ làm bánh nhé','Vì hôm nay là sinh nhật cậu nên tớ thấy thật phù hợp khi cậu có thể làm bánh sinh nhật online của riêng mình. Bắt đầu bằng cách làm hỗn hợp bánh của cậu, sau đó nướng trong lò nướng online và cuối cùng là trang trí. Chúc cậu sinh nhật vui vẻ và hạnh phúc <3');
+    fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake_modal.png','panh cùng anh làm bánh nhé','Vì hôm nay là sinh nhật em nên anh thấy thật toẹt vờiii khi em có thể làm một chiếc bánh sinh nhật online của riêng mình. Em bắt đầu làm hỗn hợp bánh của mình, sau đó nướng trong lò nướng online và cuối cùng là trang trí. Chúc panh một sinh nhật vui vẻ và hạnh phúc <3');
 })
 
 progress = 1;
