@@ -47,7 +47,7 @@ $('.mixer').click(function(){
     }
     if(mixtimes == 6){
         $('.stage2').fadeOut();
-        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','Trộn xong rồi nè','Chúc mừng cậu, hỗn hợp đã hoàn hảo! Sau khi đổ hỗn hợp vào khay nướng, giờ là lúc cho hỗn hợp vào lò nướng online của chúng mình trong khoảng 3 giây. Đó sẽ là thời gian đủ để lớp nền xốp đẹp.');
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','Trộn xong rồi nè','Chúc mừng panh nhé, hỗn hợp đã hoàn hảo! Sau khi đổ hỗn hợp vào khay nướng, giờ là lúc cho hỗn hợp vào lò nướng online của chúng mình trong khoảng 3 giây. Đó sẽ là thời gian đủ để lớp nền xốp đẹp.');
 
     }
 
@@ -59,7 +59,7 @@ $('.tin').draggable({
 $( ".oven" ).droppable({
     drop: function( event, ui ) {
         $('.stage3').fadeOut();
-        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Làm xong bánh rồii','Cậu đúng là vua đầu bếp đấy!. Phần đế được nướng hoàn toàn và trông cực kỳ ngon. Bây giờ là lúc kết hợp phần đế này với nhiều nguyên liệu khác như mứt, mứt cam, sô cô la, v.v.');
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Làm xong bánh rồii','em đúng là vua đầu bếp đấy!. Phần đế được nướng hoàn toàn và trông cực kỳ ngon. Bây giờ là lúc kết hợp phần đế này với nhiều nguyên liệu khác như mứt, mứt cam, sô cô la, v.v.');
     }
 })
 
